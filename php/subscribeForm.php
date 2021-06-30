@@ -10,7 +10,7 @@ if(!empty($posts)){
         $returnMessage->message = "You have been added to our mailing list";
     }else{
         $returnMessage->status = 0;
-        $returnMessage->message = "Already Exists";
+        $returnMessage->message = "Your email already exists on our mailing list";
     }
 }else{
     $returnMessage->status = -1;
