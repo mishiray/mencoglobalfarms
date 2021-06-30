@@ -2,9 +2,9 @@
 
 /* Database credentials*/
 define('DB_SERVER', 'localhost');
-define('DB_USERNAME', 'root');
-define('DB_PASSWORD', '');
-define('DB_NAME', 'mencoglobalfarms');
+define('DB_USERNAME', 'pzgnfamy_menco');
+define('DB_PASSWORD', 'eYR%y*)&,rl#');
+define('DB_NAME', 'pzgnfamy_mencoglobalfarms');
 
 $conn = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
 
